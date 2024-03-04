@@ -4,7 +4,7 @@ import Script from 'next/script'
 import styles from './layout.module.css'
 import { Link } from '@mui/material';
 
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'コーディングデザインLINE予約サンプルアプリ'
 
 export default function Layout({ children, home, user, previousReservations }) {
   return (
