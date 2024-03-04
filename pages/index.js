@@ -54,7 +54,7 @@ export default function Home({ _staffs, serviceDomain, apiKey }) {
           />
           <h1 className={utilStyles.headingMd}>{profile.displayName}</h1>
           <p className={utilStyles.lightText}>
-            こんにちは、{profile.displayName}さん、しげサロンへようこそ！<br/>
+            こんにちは、{profile.displayName}さん、コーディングデザインLINE予約サンプルアプリへようこそ！<br/>
 
             {
               previousReservations.length != 0 ?
@@ -62,7 +62,7 @@ export default function Home({ _staffs, serviceDomain, apiKey }) {
                 来店ポイント {previousReservations.length} pt です。
                 前回の来店は {dateToString(previousReservations[0].reservationAt)} です。
               </> :
-              `はじめまして、お客様に合った最高のヘアスタイルをご提供できるよう、スタッフ一同心よりお待ちしております。`
+              `はじめまして、お客様に合ったWebサイトをご提供できるよう、スタッフ一同心よりお待ちしております。`
             }
             <br/>
             <br />
