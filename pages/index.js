@@ -102,7 +102,7 @@ export default function Home({ _staffs, serviceDomain, apiKey }) {
             </ListItem>
           ))}
         </List>
-        <Button
+        {/* <Button
           variant="contained"
           onClick={() => {
             const staff = createRandomStaff()
@@ -113,7 +113,7 @@ export default function Home({ _staffs, serviceDomain, apiKey }) {
           }}
         >
           ハンズオン用にmicroCMS上に新規スタッフ作成
-        </Button>
+        </Button> */}
       </Container>
 
       <Container>
